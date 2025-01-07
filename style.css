@@ -39,30 +39,20 @@ header nav ul li a{
    list-style: none;
 }
 
-#hero-section{
-    background: rgb(239, 108, 15);
+#hero_section{
+    background: rgb(255, 248, 243);
     width: 100%;
     height: 837px;
     display: flex;
+    justify-content: space-between;
+    align-items: end;
 }
 
-.left-part{
-    width: 50%;
-    height: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border: 2px solid black;
 
-}
 .right-part{
     width: 50%;
     height: 100%;
     display: flex;
-}
-.developer-text{
-    width: 30px;
-    height: 100%;
 }
 .developer-img{
     width: auto;
@@ -71,6 +61,8 @@ header nav ul li a{
 .text-area{
     width: 585px;
     height: 356px;
+    margin-bottom: 184px;
+    margin-left: 230px;
 }
 
 .text-area>h3{
@@ -116,9 +108,9 @@ outline: none;
 border: none;
 }
 button:last-child{
-    border:1px solid rgb(253, 110, 10);
-    background-color: transparent;
-    color: rgb(253, 110, 10);
+border:1px solid rgb(253, 110, 10);
+background-color: transparent;
+color: rgb(253, 110, 10);
 font-family: Open;
 font-size: 20px;
 font-weight: 700;
@@ -137,4 +129,11 @@ text-align: left;
 }
 .logo>span{
     color: rgb(253, 110, 10);
+}
+
+.profile_pic{
+width: 584px;
+height: 676px;
+margin-right: 38px;
+margin-top: 161px;
 }
