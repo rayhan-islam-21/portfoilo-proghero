@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #f5f5f5;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+header{
+    width: 100%;
+    position: absolute;
+    padding: 50px 230px;
+}
+header nav{
+    display: flex; 
+    justify-content: space-between;
+    padding: 20px;
+}
+header nav ul{
+    display: flex; 
+    justify-content: space-evenly;
+    align-items: center;
+}
+header nav ul li{
+   list-style: none;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-right: 60px;
+   list-style: none;
+}
+
+#hero-section{
+    background: rgb(239, 108, 15);
+    width: 100%;
+    height: 837px;
+    display: flex;
+}
+
+.left-part{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid black;
+
+}
+.right-part{
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+.developer-text{
+    width: 30px;
+    height: 100%;
+}
+.developer-img{
+    width: auto;
+    height: 100%;
+}
+.text-area{
+    width: 585px;
+    height: 356px;
+}
+
+.text-area>h3{
+    color: rgb(71, 71, 71);
+font-family: Open Sans;
+font-size: 45px;
+font-weight: 600;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text-area>h1{
+    color: rgb(24, 24, 24);
+font-family: Open Sans;
+font-size: 85px;
+font-weight: 700;
+line-height: 116px;
+letter-spacing: 0%;
+text-align: left;
+}
+.text-area>p{
+    color: rgb(117, 117, 117);
+font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+button{
+
+width: 200px;
+height: 64px;
+border-radius: 5px;
+color: rgb(255, 255, 255);
+font-family: Open Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+text-align: center;
+background: rgb(253, 110, 10);
+outline: none;
+border: none;
+}
+button:last-child{
+    border:1px solid rgb(253, 110, 10);
+    background-color: transparent;
+    color: rgb(253, 110, 10);
+font-family: Open;
+font-size: 20px;
+font-weight: 700;
+line-height: 27px;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.logo{
+    font-family: Open Sans;
+font-size: 45px;
+font-weight: 800;
+line-height: 61px;
+letter-spacing: 0%;
+text-align: left;
+}
+.logo>span{
+    color: rgb(253, 110, 10);
+}
